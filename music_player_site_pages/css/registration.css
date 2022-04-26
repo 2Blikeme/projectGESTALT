@@ -1,0 +1,74 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: #000;
+}
+
+h2{
+    font-size: 80px;
+    color: black;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo_img{
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    max-width: 160px;
+    max-height: 160px;
+}
+
+.user_input{
+    margin-top: 20px;
+    height: 40px;
+    width: 250px;
+}
+
+.register-form{
+    text-align: center;
+    top: 30%;
+    left: 50%;
+}
+
+.sub{
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: aliceblue;
+}
+
+input:hover{
+    color: #000;
+}
+
+.input:focus {
+    outline: none !important;
+    border:1px solid red;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+span{
+    text-align: center;
+    color: #000;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.smile_left, .smile_right{
+    position: relative;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+.giveup_text{
+    display: block;
+    text-align: center;
+}

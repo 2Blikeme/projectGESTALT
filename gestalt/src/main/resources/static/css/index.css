@@ -1,0 +1,48 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: #000;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo_img{
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    max-width: 160px;
+    max-height: 160px;
+}
+
+
+li{
+    font-size: 27px;  
+}
+
+.btn{
+    width: 170px;
+    height: 50px;
+}
+
+.btn:hover{
+    color: inherit;
+}
+
+.download-link{
+    color: #fff;
+}
+
+.download-btn{
+    margin-left: 15px;
+}
+
+.download-area{
+    display: flex;
+}
+
+

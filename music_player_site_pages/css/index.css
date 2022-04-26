@@ -1,0 +1,69 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: #000;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo_img{
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    max-width: 160px;
+    max-height: 160px;
+}
+
+
+li{
+    font-size: 27px;  
+}
+
+.btn{
+    margin: 0;
+    width: 170px;
+    height: 50px;
+}
+
+.btn:hover{
+    color: inherit;
+}
+
+.download-link{
+    color: #fff;
+}
+
+.download-area{    
+    text-align: center;
+}
+
+/* .login-logout{
+    border-radius: 5px;
+    border-color: #000;
+    text-align: right;
+} */
+
+.user-input{
+    width: 190px;
+    height: 35px;
+    margin-top: 10px;    
+}
+
+.user-input-sub-btn{
+    margin-top: 10px;
+    position: relative;
+}
+
+.download-btn{
+    margin-top: 10px;
+}
+
+.header-logo{
+    display: inline-block;
+}
+
