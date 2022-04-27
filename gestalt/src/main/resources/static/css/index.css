@@ -4,27 +4,40 @@ a{
 }
 
 a:hover{
-    color: #000;
+    color: black;
 }
 
-.logo{
+h1{
     text-align: center;
+    font-size: 50px;
+    margin: 50px 0;
 }
 
-.logo_img{
-    text-align: center;
-    position: relative;
-    margin-top: 10px;
-    max-width: 160px;
-    max-height: 160px;
+h2{
+    display: inline;
+    font-size: 37px;
 }
 
+
+.brand{
+    margin-left: 150px;
+}
+
+.login-link{
+    font-size: 20px;
+    margin-right: 150px;
+}
+
+.separator{
+    margin: 0 20px;
+}
 
 li{
     font-size: 27px;  
 }
 
-.btn{
+.download-btn{
+    margin: 10px 0 0 0;
     width: 170px;
     height: 50px;
 }
@@ -37,12 +50,31 @@ li{
     color: #fff;
 }
 
-.download-btn{
-    margin-left: 15px;
-}
-
 .download-area{
-    display: flex;
+    margin: 21px 0;
+    text-align: center;
 }
 
+.login-logout{
+    float: right;
+    margin: 10px 0 0 0;
+}
+
+.login-logout *{
+    margin: 10px 10px 0 0;
+
+}
+
+.main-body{
+    clear: both;
+}
+
+.feature-list-container{
+    margin: 10px 0 0 0;
+}
+
+
+.page-footer{
+    background-color: #f3f3f3;
+}
 
