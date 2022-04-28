@@ -1,0 +1,124 @@
+body *{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: #000;
+}
+
+.main-pg-link:hover{
+    color: #000;
+}
+
+.redirect-vk-auth{
+    text-align: center;
+    margin: 50px 0 10px 0;
+}
+
+.vk-auth-btn{
+    width: 200px;
+    height: 40px;
+}
+
+.vk-auth-link{
+    text-decoration: none;
+    color: white;
+}
+
+.vk-auth-link:hover{
+    color: white;
+}
+
+h5 {
+    display: flex;
+    flex-direction: row;
+}
+
+h5:before, h5:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 3px solid #000000;
+    margin:  auto;
+}
+
+
+h5:after{
+    margin-right: 520px;
+    margin-left: 20px;
+}
+
+h5:before{
+    margin-left: 520px;
+    margin-right: 20px;
+}
+
+.register-form-container{
+    margin: auto;
+    width: 500px;
+
+}
+
+.input-form{
+    margin-left: 125px;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo_img{
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.user-input-lg, .user-input-pw{
+    margin: 0;
+    height: 40px;
+    width: 250px;
+}
+
+label{
+    display: block;
+    margin: 10px 0 0 5px;
+}
+
+.sub{
+    width: 150px;
+    height: 40px;
+    margin: 10px 50px;
+}
+
+.res-pass-link{
+    margin-left: 10px;
+}
+
+input:hover{
+    color: #000;
+}
+
+.input:focus {
+    outline: none !important;
+}
+
+.redirect-bt{
+    width: 200px;
+    height: 40px;
+}
+
+.giveup_text{
+    display: block;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.redirect-reg{
+    text-align: center;
+}
+

@@ -8,8 +8,9 @@ a:hover{
 }
 
 h2{
-    font-size: 80px;
+    font-size: 30px;
     color: black;
+    margin: 45px 0 20px 0;
 }
 
 .logo{
@@ -20,11 +21,14 @@ h2{
     text-align: center;
     position: relative;
     margin-top: 10px;
-    max-width: 160px;
-    max-height: 160px;
 }
 
-.user_input{
+.user_input-lg{
+    height: 40px;
+    width: 250px;
+}
+
+.user_input-pw, .user_input-ml{
     margin-top: 20px;
     height: 40px;
     width: 250px;
@@ -32,16 +36,12 @@ h2{
 
 .register-form{
     text-align: center;
-    top: 30%;
-    left: 50%;
 }
 
 .sub{
-    margin-bottom: 20px;
-}
-
-.footer{
-    background-color: aliceblue;
+    width: 150px;
+    height: 40px;
+    margin: 20px 0 0 0;
 }
 
 input:hover{
@@ -50,25 +50,18 @@ input:hover{
 
 .input:focus {
     outline: none !important;
-    border:1px solid red;
-    box-shadow: 0 0 10px #719ECE;
 }
 
-span{
-    text-align: center;
-    color: #000;
-    font-size: 70px;
-    font-weight: 600;
-}
-
-.smile_left, .smile_right{
-    position: relative;
-    text-align: center;
-    height: 100px;
-    width: 100px;
+.redirect-bt{
+    width: 200px;
+    height: 40px;
 }
 
 .giveup_text{
     display: block;
     text-align: center;
+    color: #000;
+    font-size: 70px;
+    margin-top: 20px;
+    font-weight: 100;
 }

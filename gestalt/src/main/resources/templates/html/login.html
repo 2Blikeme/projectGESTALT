@@ -2,24 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/login.css">
+    <title>Login - GESTALT</title>
 </head>
 <body>
 
-    <div class="login-logout">
-        <form method="post">
-            <p>Enter your account</p>
-            <div>
-                <input type="text" placeholder="login">
-            </div>
-            <div>
-                <input type="password" placeholder="password">
-            </div>
-            <div>
-                <input type="submit" class="btn btn-dark" value="Login!">
-            </div>
-        </form>
+<header>
+    <div class="logo">
+        <a class="main-pg-link" href="/templates/html/index.html">
+            <img src="/static/img/new_icon.png" alt="logo_img" class="logo_img" width="160" height="160">
+            <h1>Project GESTALT</h1>
+        </a>
     </div>
+</header>
+
+<main>
+    <div class="register-form">
+        <div class="redirect-vk-auth">
+            <button class="btn btn-dark vk-auth-btn">
+                <a href="auth_vk.html" class="vk-auth-link">
+                    Continue with VK
+                </a>
+            </button>
+        </div>
+
+        <h5>
+            or
+        </h5>
+
+        <div class="register-form-container">
+            <form action="" method="post" class="input-form">
+                <div class="lg-ml-input">
+                    <label for="user-input-lg" class="lb-lg-ml-input">Login or Email address</label>
+                    <input type="text" id="user-input-lg" class="user-input-lg" placeholder="Login or Email address" required>
+                </div>
+                <div class="psw-input">
+                    <label class="" for="user_input-ml">Password</label>
+                    <input type="password" id="user_input-ml" class="user-input-pw" placeholder="Password" required>
+                </div>
+                <div class="res-pass-link">
+                    <a href="restore_password.html">
+                        Forgot password?
+                    </a>
+                </div>
+                <div>
+                    <input type="submit" class="btn btn-dark user_input sub" value="Enter" placeholder="Password">
+                </div>
+            </form>
+        </div>
+
+        <div class="redirect-reg">
+            <a href="registration.html">
+                <button class="btn btn-dark redirect-bt">
+                    I don't have account(
+                </button>
+            </a>
+        </div>
+    </div>
+</main>
+
+
+
+<footer>
+    <span class="giveup_text" >
+        What drives you, Exile?
+    </span>
+</footer>
 
 </body>
 </html>

@@ -9,48 +9,45 @@
 </head>
 <body>
 
+<!--
+    todo подправить форму чтобы она была похожа на логин
+-->
     <div class="logo">
         <a href="/templates/html/index.html">
-            <img src="/static/img/new_icon.png" alt="logo_img" class="logo_img">
+            <img src="/static/img/new_icon.png" alt="logo_img" class="logo_img" width="160" height="160">
             <h1>Project GESTALT</h1>
         </a>
     </div>
 
-    <!-- 
-    todo: При наведении на инпуты они должны подсвечиваться черным
-     -->
-
     <div class="register-form">
         <h2>Registration</h2>
-        <div class="">
+        <div class="register-form-container">
             <form action="" method="post">
                 <div>
-                    <input type="text" class="user_input" placeholder="Login" required>
+                    <input type="text" class="user_input-lg" placeholder="Login" required>
                 </div>
                 <div>
-                    <input type="email" class="user_input" placeholder="Email" required>
+                    <input type="email" class="user_input-pw" placeholder="Email" required>
                 </div>
                 <div>
-                    <input type="password" class="user_input" placeholder="Password" required>
+                    <input type="password" class="user_input-ml" placeholder="Password" required>
                 </div>
                 <div>
-                    <input type="submit" class="user_input sub" value="Confirm" placeholder="Password">
+                    <input type="submit" class="btn btn-dark user_input sub" value="Confirm" placeholder="Password">
                 </div>
             </form>
+
+            <a href="login.html">
+                <button class="btn btn-dark redirect-bt">
+                    I already have account
+                </button>
+            </a>
         </div>
     </div>
-    <!-- 
-    todo:
-     Поправиль картинки, чтобы они прилегали к левым и правым
-        сторонам соответственно
-     Подумать над дизайном, выглядит это ужасно(беее)
-    -->
-    
+
     <footer>
         <span class="giveup_text" >
-            <img src="/static/img/smile.png" alt="smile" class="smile_left">
             Part of something bigger
-            <img src="/static/img/smile.png" alt="smile" class="smile_right">
         </span>
     </footer>
 </body>
