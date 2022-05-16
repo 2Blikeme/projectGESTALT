@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e440d21-c0d0-4842-845a-ebcf9e937428" name="Changes" comment="" />
+    <list default="true" id="8e440d21-c0d0-4842-845a-ebcf9e937428" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/database/entity/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/gui/cosmetic/CustomScrollBarUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/MusicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/MainConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/config/MainConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/blocks/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/blocks/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/components/chunks/CustomButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/components/chunks/CustomButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/components/chunks/CustomTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/components/chunks/CustomTextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/components/fields/LogoField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/components/fields/LogoField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/components/fields/SearchField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/components/fields/SearchField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/cosmetic/MyFont.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/cosmetic/MyFont.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/interfaces/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/interfaces/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/interfaces/Chunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/interfaces/Chunk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/interfaces/CustomComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/interfaces/CustomComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/interfaces/CustomCustomization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/interfaces/CustomCustomization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/interfaces/CustomField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/interfaces/CustomField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/interfaces/Customization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/interfaces/Customization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/MainConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/MainWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/blocks/Header.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/components/chunks/CustomButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/components/chunks/CustomTextField$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/components/chunks/CustomTextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/components/fields/LogoField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/components/fields/SearchField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/cosmetic/MyFont.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/interfaces/Block.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/interfaces/Chunk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/interfaces/CustomComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/interfaces/CustomCustomization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/interfaces/CustomField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui/interfaces/Customization.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +50,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="XML Properties File" />
-        <option value="Class" />
         <option value="HTML File" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,19 +69,29 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "fe251a653b2d06188d5e0f046974071d"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gestalt/Github/projectGESTALT/gestalt_desktop/src/main/java/app/service&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;fe251a653b2d06188d5e0f046974071d&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/app/service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -73,11 +119,24 @@
       <workItem from="1652376740791" duration="313000" />
       <workItem from="1652377074277" duration="6593000" />
       <workItem from="1652424302929" duration="19231000" />
+      <workItem from="1652652481192" duration="13435000" />
+      <workItem from="1652666087693" duration="304000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
