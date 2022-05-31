@@ -2,21 +2,27 @@ package app.database.entity;
 
 public class Music {
     private String name;
-    private String path;
 
-    public Music(String path, String name) {
-        this.path = path;
+    private String author;
+
+    public Music(String name, String author) {
         this.name = name;
+        this.author = author;
     }
 
 
-    public String getPath() {
-        return path;
+    public String getName() {
+        return name;
+    }
+
+
+    public String getAuthor() {
+        return author;
     }
 
 
     @Override
     public String toString() {
-        return name;
+        return name + " - " + author;
     }
 }

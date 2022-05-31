@@ -5,41 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e440d21-c0d0-4842-845a-ebcf9e937428" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/database/entity/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/gui/cosmetic/CustomScrollBarUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/service/MusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/network/MusicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gestalt_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gestalt_server/src/main/java/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gestalt_server/src/main/java/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/MainConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/config/MainConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/MainWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/blocks/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/blocks/Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/components/chunks/CustomButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/components/chunks/CustomButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/components/chunks/CustomTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/components/chunks/CustomTextField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/components/fields/LogoField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/components/fields/LogoField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/components/fields/SearchField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/components/fields/SearchField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/cosmetic/MyFont.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/cosmetic/MyFont.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/interfaces/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/interfaces/Block.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/interfaces/Chunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/interfaces/Chunk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/interfaces/CustomComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/interfaces/CustomComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/interfaces/CustomCustomization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/interfaces/CustomCustomization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/interfaces/CustomField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/interfaces/CustomField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/interfaces/Customization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/interfaces/Customization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/database/entity/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/database/entity/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/gui/components/fields/SongView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/gui/components/fields/SongView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/music/Midix feat. Chuyko- Lirin-Убей меня.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/music/Vspak-Хочу.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/music/Серега Пират-А ты.wav" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/MainConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/MainWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/blocks/Header.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/components/chunks/CustomButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/components/chunks/CustomTextField$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/components/chunks/CustomTextField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/components/fields/LogoField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/components/fields/SearchField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/cosmetic/MyFont.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/interfaces/Block.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/interfaces/Chunk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/interfaces/CustomComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/interfaces/CustomCustomization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/interfaces/CustomField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui/interfaces/Customization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/gui/components/fields/SongView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/gui/components/fields/SongView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/gui/components/fields/SongView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/gui/components/fields/SongView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/music/Midix feat. Chuyko- Lirin-Убей меня.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/music/Vspak-Хочу.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/music/Серега Пират-А ты.wav" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +58,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/gestalt/Github/projectGESTALT/gestalt_desktop/src/main/java/app/service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gestalt/study/luk/prog&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -120,7 +103,16 @@
       <workItem from="1652377074277" duration="6593000" />
       <workItem from="1652424302929" duration="19231000" />
       <workItem from="1652652481192" duration="13435000" />
-      <workItem from="1652666087693" duration="304000" />
+      <workItem from="1652666087693" duration="536000" />
+      <workItem from="1652719534579" duration="2554000" />
+      <workItem from="1652765595635" duration="109000" />
+      <workItem from="1652770914146" duration="652000" />
+      <workItem from="1652806283134" duration="2012000" />
+      <workItem from="1653425473381" duration="3135000" />
+      <workItem from="1653429440146" duration="517000" />
+      <workItem from="1653602833024" duration="9451000" />
+      <workItem from="1653898253680" duration="2077000" />
+      <workItem from="1653934178321" duration="5104000" />
     </task>
     <servers />
   </component>
